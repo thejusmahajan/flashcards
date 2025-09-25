@@ -43,5 +43,50 @@
     "interval": 1,
     "easeFactor": 2.5,
     "dueDate": "2025-09-25"
+  },
+  {
+    "id": "17588251033678fc814ef21b4",
+    "front": "How do you parse a GenBank file named \"sequence.gb\" and extract the first sequence record using Biopython?",
+    "back": "from Bio import SeqIO; record = SeqIO.read(\"sequence.gb\", \"genbank\")",
+    "repetition": 0,
+    "interval": 1,
+    "easeFactor": 2.5,
+    "dueDate": "2025-09-25"
+  },
+  {
+    "id": "175882510336709074a0bf1927",
+    "front": "Given a `SeqRecord` object named `record` (e.g., from a parsed GenBank file), how do you access its sequence string and its ID?",
+    "back": "sequence_data = str(record.seq); sequence_id = record.id",
+    "repetition": 0,
+    "interval": 1,
+    "easeFactor": 2.5,
+    "dueDate": "2025-09-25"
+  },
+  {
+    "id": "1758825103367583ec7bde3b478",
+    "front": "How can you perform a remote BLAST search using Biopython's NCBIWWW module with a sequence string 'ATGGCATGC'?",
+    "back": "from Bio.Blast import NCBIWWW; from Bio.Seq import Seq; from Bio.SeqRecord import SeqRecord; record = SeqRecord(Seq('ATGGCATGC'), id='my_seq'); result_handle = NCBIWWW.qblast('blastn', 'nt', record.format('fasta'))",
+    "repetition": 0,
+    "interval": 1,
+    "easeFactor": 2.5,
+    "dueDate": "2025-09-25"
+  },
+  {
+    "id": "1758825103367aef6e1ff9e898",
+    "front": "How do you iterate through all sequence records in a FASTA file named \"genes.fasta\" using Biopython?",
+    "back": "from Bio import SeqIO; for record in SeqIO.parse(\"genes.fasta\", \"fasta\"): print(record.id, len(record.seq))",
+    "repetition": 0,
+    "interval": 1,
+    "easeFactor": 2.5,
+    "dueDate": "2025-09-25"
+  },
+  {
+    "id": "1758825103367add05cb630037",
+    "front": "How can you read a PDB file named \"1FAT.pdb\" to get its structure object using Biopython's PDB module?",
+    "back": "from Bio.PDB import PDBList, PDBParser; pdbl = PDBList(); pdbl.retrieve_pdb_file('1FAT', pdir='.', file_format='pdb'); parser = PDBParser(); structure = parser.get_structure('1FAT', 'pdb1fat.ent')",
+    "repetition": 0,
+    "interval": 1,
+    "easeFactor": 2.5,
+    "dueDate": "2025-09-25"
   }
 ]
