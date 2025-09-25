@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "id": "17587945897967783cb7356438",
+    "front": "How do you parse a FASTA file named 'sequences.fasta' using BioPython to iterate over records?",
+    "back": "Use `from Bio import SeqIO` and then `for record in SeqIO.parse('sequences.fasta', 'fasta'):`",
+    "repetition": 0,
+    "interval": 1,
+    "easeFactor": 2.5,
+    "dueDate": "2025-09-25"
+  },
+  {
+    "id": "17587945897967665d6dd6d7348",
+    "front": "Once you have a `SeqRecord` object, how do you access its sequence, ID, and description?",
+    "back": "Access them via `record.seq`, `record.id`, and `record.description` respectively.",
+    "repetition": 0,
+    "interval": 1,
+    "easeFactor": 2.5,
+    "dueDate": "2025-09-25"
+  },
+  {
+    "id": "1758794589796ebb2afd4a96528",
+    "front": "How do you translate a DNA `Seq` object into an amino acid sequence using BioPython?",
+    "back": "If `my_dna_seq` is a `Seq` object, use `my_protein_seq = my_dna_seq.translate()`.",
+    "repetition": 0,
+    "interval": 1,
+    "easeFactor": 2.5,
+    "dueDate": "2025-09-25"
+  },
+  {
+    "id": "1758794589796033e9f3dd351c8",
+    "front": "What BioPython module is used to interact with NCBI's Entrez system, and how do you set your email for queries?",
+    "back": "Use `from Bio import Entrez`. Set your email with `Entrez.email = 'your.email@example.com'`.",
+    "repetition": 0,
+    "interval": 1,
+    "easeFactor": 2.5,
+    "dueDate": "2025-09-25"
+  },
+  {
+    "id": "175879458979686d0e6dcb944e",
+    "front": "Which BioPython module is used for performing remote BLAST searches via NCBI's web interface?",
+    "back": "Use `from Bio.Blast import NCBIWWW`.",
+    "repetition": 0,
+    "interval": 1,
+    "easeFactor": 2.5,
+    "dueDate": "2025-09-25"
+  }
+]
