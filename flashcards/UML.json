@@ -3,9 +3,9 @@
     "id": "1758790157482ef376395035e08",
     "front": "UML full form",
     "back": "Unified Modelling Language",
-    "repetition": 0,
+    "repetition": 1,
     "interval": 1,
-    "easeFactor": 2.5,
-    "dueDate": "2025-09-25"
+    "easeFactor": 2.3600000000000003,
+    "dueDate": "2025-09-26"
   }
 ]
