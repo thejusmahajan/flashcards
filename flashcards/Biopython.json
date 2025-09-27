@@ -3,90 +3,90 @@
     "id": "175896156886337d5bf4cf150e",
     "front": "What foundational data format is quickly reviewed, and what is the core purpose of Biopython?",
     "back": "XML is reviewed, and the core purpose of Biopython is to provide tools for biological computation.",
-    "repetition": 1,
+    "repetition": 0,
     "interval": 1,
     "easeFactor": 2.5,
-    "dueDate": "2025-09-28"
+    "dueDate": "2025-09-27"
   },
   {
     "id": "1758961568863d3d2857db790e8",
     "front": "Which Biopython module is used to learn about available NCBI databases and their search fields?",
     "back": "The einfo utility from Biopython's Bio.Entrez module is used for exploring NCBI Entrez databases.",
-    "repetition": 1,
+    "repetition": 0,
     "interval": 1,
     "easeFactor": 2.5,
-    "dueDate": "2025-09-28"
+    "dueDate": "2025-09-27"
   },
   {
     "id": "17589615688637184b92b07e258",
     "front": "What Biopython utility allows you to query NCBI databases?",
     "back": "The esearch utility from Biopython's Bio.Entrez module is used for searching NCBI databases.",
-    "repetition": 1,
+    "repetition": 0,
     "interval": 1,
     "easeFactor": 2.5,
-    "dueDate": "2025-09-28"
+    "dueDate": "2025-09-27"
   },
   {
     "id": "1758961568863101a1b6498ec08",
     "front": "How can you obtain summaries of database entries from NCBI Entrez using Biopython?",
     "back": "The esummary utility from Biopython's Bio.Entrez module is used to get summaries of database entries.",
-    "repetition": 1,
+    "repetition": 0,
     "interval": 1,
     "easeFactor": 2.5,
-    "dueDate": "2025-09-28"
+    "dueDate": "2025-09-27"
   },
   {
     "id": "17589615688639b9177f41fcae",
     "front": "Which Biopython objects are primarily used for common bioinformatics tasks like transcription and translation?",
     "back": "The SeqRecord and Seq objects from Biopython are used for working with sequences.",
-    "repetition": 1,
+    "repetition": 0,
     "interval": 1,
     "easeFactor": 2.5,
-    "dueDate": "2025-09-28"
+    "dueDate": "2025-09-27"
   },
   {
     "id": "17589615688638911480534c2e8",
     "front": "Which Biopython utility is used to download full records from NCBI Entrez?",
     "back": "The efetch utility from Biopython's Bio.Entrez module is used to download full records.",
-    "repetition": 1,
+    "repetition": 0,
     "interval": 1,
     "easeFactor": 2.5,
-    "dueDate": "2025-09-28"
+    "dueDate": "2025-09-27"
   },
   {
     "id": "1758961568863b6ed3f48da13b",
     "front": "How does Biopython's Bio.Entrez module allow you to find linked data and handle multiple IDs simultaneously?",
     "back": "The elink utility from Biopython's Bio.Entrez module is used to find linked data and handle multiple IDs at once.",
-    "repetition": 1,
+    "repetition": 0,
     "interval": 1,
     "easeFactor": 2.5,
-    "dueDate": "2025-09-28"
+    "dueDate": "2025-09-27"
   },
   {
     "id": "17589615688631ecd804263d1b8",
     "front": "What tools/databases are used to access protein sequence data from UniProt?",
     "back": "ExPASy and SwissProt are used to get protein sequence data from UniProt.",
-    "repetition": 1,
+    "repetition": 0,
     "interval": 1,
     "easeFactor": 2.5,
-    "dueDate": "2025-09-28"
+    "dueDate": "2025-09-27"
   },
   {
     "id": "17589615688630e8afd4d542ca",
     "front": "Which Biopython module is used to interact with the RCSB Protein Data Bank (PDB) for 3D structure data?",
     "back": "Bio.PDB is used to interact with the RCSB Protein Data Bank (PDB) for accessing 3D structure data.",
-    "repetition": 1,
+    "repetition": 0,
     "interval": 1,
     "easeFactor": 2.5,
-    "dueDate": "2025-09-28"
+    "dueDate": "2025-09-27"
   },
   {
     "id": "1758961568863f0ebdfc15955d8",
     "front": "What is the general progression of topics in this learning plan regarding data access, starting from foundational concepts?",
     "back": "The plan progresses from data formats and exploring/searching NCBI Entrez, through working with sequences, to accessing protein sequence and 3D structure data.",
-    "repetition": 1,
+    "repetition": 0,
     "interval": 1,
     "easeFactor": 2.5,
-    "dueDate": "2025-09-28"
+    "dueDate": "2025-09-27"
   }
 ]
